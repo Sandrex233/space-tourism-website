@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website
 
-![Design preview for the Space tourism website coding challenge](./preview.jpg)
+![Design preview for the Space tourism website coding challenge](https://www.figma.com/file/X3LkpLTqm057vitqJEK1LP/space-tourism-website)
 
 ## Welcome! 👋
 
