@@ -1,6 +1,6 @@
 # Frontend Mentor - Space tourism website
 
-FIgma Design: https://www.figma.com/file/X3LkpLTqm057vitqJEK1LP/space-tourism-website)
+FIgma Design: https://www.figma.com/file/X3LkpLTqm057vitqJEK1LP/space-tourism-website
 
 ## Welcome! 👋
 
