@@ -1,8 +1,17 @@
 import React from 'react'
+import Navbar from '../navbar/Navbar'
+import './crew.css'
+import { Link } from 'react-router-dom'
 
 const Crew = () => {
     return (
-        <div>Crew</div>
+        <div className='crew'>
+            <Navbar />
+            <div className="crew__A">Douglas Hurley</div>
+            <div className="crew__B">MARK SHUTTLEWORTH</div>
+            <div className="crew__C">Victor Glover</div>
+            <div className="crew__D">Anousheh Ansari</div>
+        </div>
     )
 }
 

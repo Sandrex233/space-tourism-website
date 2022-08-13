@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../assets/shared/logo.svg'
 
+import { Link } from 'react-router-dom'
 
 import './navbar.css'
 
@@ -13,39 +14,39 @@ const Navbar = () => {
                 <div className='navbar__navigation-items'>
                     <ul>
                         <li>
-                            <a href="/">
+                            <Link to="/">
                                 <li>
                                     <p>00</p>
                                     <p>HOME</p>
                                 </li>
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/destination">
+                            <Link to="/destination">
                                 <li>
                                     <p>01</p>
                                     <p>DESTINATION</p>
                                 </li>
 
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/crew">
+                            <Link to="/crew">
                                 <li>
                                     <p>02</p>
                                     <p>CREW</p>
                                 </li>
 
-                            </a>
+                            </Link>
                         </li>
                         <li>
-                            <a href="/technology">
+                            <Link to="/technology">
                                 <li>
                                     <p>03</p>
                                     <p>TECHNOLOGY</p>
                                 </li>
 
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                 </div>

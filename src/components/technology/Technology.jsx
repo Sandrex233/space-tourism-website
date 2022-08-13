@@ -1,8 +1,17 @@
 import React from 'react'
+import Navbar from '../navbar/Navbar'
+import './technology.css'
+import { Link } from 'react-router-dom'
 
 const Technology = () => {
     return (
-        <div>Technology</div>
+        <div className='technology'>
+            <Navbar />
+            <div className="technology__A">LAUNCH VEHICLE</div>
+            <div className="technology__B">SPACEPORT</div>
+            <div className="technology__C">SPACE CAPSULE</div>
+
+        </div>
     )
 }
 
