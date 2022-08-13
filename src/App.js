@@ -1,10 +1,17 @@
 import React from 'react'
 
+import { Crew, Home, Technology, Destination } from './components';
+
 import './App.css'
 
 const App = () => {
     return (
-        <div>App</div>
+        <div>
+            <Home />
+            <Destination />
+            <Crew />
+            <Technology />
+        </div>
     )
 }
 

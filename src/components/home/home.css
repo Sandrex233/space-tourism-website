@@ -1,0 +1,63 @@
+.home {
+    background-image: url(../../assets/home/background-home-desktop.jpg);
+    width: 1440px;
+    height: 900px;
+}
+
+.large-button {
+    position: absolute;
+    z-index: 1;
+    left: 1001px;
+    top: 495px;
+
+    display: grid;
+    place-items: center;
+
+
+    aspect-ratio: 1;
+    text-decoration: none;
+    background: #FFFFFF;
+
+    border-radius: 50%;
+    width: 274px;
+    height: 274px;
+
+}
+
+.large-button p {
+    font-family: var(--ff-serif);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+
+    color: #0B0D17;
+}
+
+.large-button::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+
+
+    width: 274px;
+    height: 274px;
+    background: hsl(var(--clr-white) / .1);
+    border-radius: 50%;
+    opacity: 0;
+    transition: opacity 500ms linear, transform 750ms ease-in-out;
+
+
+}
+
+
+
+.large-button:hover::after,
+.large-button:focus::after {
+    opacity: 1;
+    transform: scale(1.5);
+
+}
