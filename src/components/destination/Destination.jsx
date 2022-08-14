@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import './destination.css'
-import { Link } from 'react-router-dom'
+
 
 const Destination = () => {
     return (

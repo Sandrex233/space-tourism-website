@@ -30,7 +30,7 @@
     backdrop-filter: blur(81.5485px);
 }
 
-.navbar__navigation-items ul {
+.navbar__navigation-items {
 
     margin-left: 123px;
     margin-top: 22px;
@@ -53,7 +53,7 @@
 
 
 
-.navbar__navigation-items ul li p:first-child {
+.navbar__navigation-items li p:first-child {
     font-family: var(--ff-sans-cond);
     font-style: normal;
     font-weight: 700;
@@ -66,7 +66,7 @@
 
 }
 
-.navbar__navigation-items ul li p:nth-child(2) {
+.navbar__navigation-items li p:nth-child(2) {
     font-family: var(--ff-sans-cond);
     font-style: normal;
     font-weight: 400;

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
 import './technology.css'
-import { Link } from 'react-router-dom'
+
 
 const Technology = () => {
     return (
